@@ -1,1 +1,98 @@
-<mxfile host="app.diagrams.net" modified="2022-04-02T06:46:37.090Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" version="17.1.3" etag="RbzvWdFUcIMRiZ-_Kj_h" type="github"><diagram id="muP2QhQGvQdK5ROZ34G3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-02T07:34:17.739Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="7ZkR3n3qi-uaw4CI5Q7N" version="17.1.3" type="github">
+  <diagram id="muP2QhQGvQdK5ROZ34G3" name="Page-1">
+    <mxGraphModel dx="1426" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ApkyQHypewZ4WZXktUts-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApkyQHypewZ4WZXktUts-1" target="ApkyQHypewZ4WZXktUts-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApkyQHypewZ4WZXktUts-1" value="JSON launch data" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApkyQHypewZ4WZXktUts-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApkyQHypewZ4WZXktUts-2" target="ApkyQHypewZ4WZXktUts-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApkyQHypewZ4WZXktUts-2" value="rockets name list" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="150" y="320" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApkyQHypewZ4WZXktUts-3" value="payloads mass and orbit lists" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="150" y="400" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApkyQHypewZ4WZXktUts-4" value="launch sites coordinates and names lists" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="150" y="480" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApkyQHypewZ4WZXktUts-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApkyQHypewZ4WZXktUts-5" target="ApkyQHypewZ4WZXktUts-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApkyQHypewZ4WZXktUts-5" value="Dataframe launch data" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="120" y="190" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApkyQHypewZ4WZXktUts-7" value="cores history and characteristics lists" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="150" y="560" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApkyQHypewZ4WZXktUts-8" value="pandas json_normalize" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApkyQHypewZ4WZXktUts-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ApkyQHypewZ4WZXktUts-9" target="ApkyQHypewZ4WZXktUts-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="398" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApkyQHypewZ4WZXktUts-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApkyQHypewZ4WZXktUts-9" target="ApkyQHypewZ4WZXktUts-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="398" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApkyQHypewZ4WZXktUts-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApkyQHypewZ4WZXktUts-9" target="ApkyQHypewZ4WZXktUts-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="398" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApkyQHypewZ4WZXktUts-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApkyQHypewZ4WZXktUts-9" target="ApkyQHypewZ4WZXktUts-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="398" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ApkyQHypewZ4WZXktUts-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApkyQHypewZ4WZXktUts-9" target="ApkyQHypewZ4WZXktUts-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApkyQHypewZ4WZXktUts-9" value="Launch data subset" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="340" y="190" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApkyQHypewZ4WZXktUts-10" value="getBoosterVersion" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApkyQHypewZ4WZXktUts-11" value="getPayloadData" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApkyQHypewZ4WZXktUts-12" value="getLaunchSites" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApkyQHypewZ4WZXktUts-13" value="getCoreData" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="555" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ApkyQHypewZ4WZXktUts-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ApkyQHypewZ4WZXktUts-19" target="ApkyQHypewZ4WZXktUts-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ApkyQHypewZ4WZXktUts-19" value="Launch dictionary" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="245" y="670" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApkyQHypewZ4WZXktUts-22" value="Data dataframe" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="245" y="770" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ApkyQHypewZ4WZXktUts-24" value="pandas DataFrame.from_dict" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="345" y="734" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
